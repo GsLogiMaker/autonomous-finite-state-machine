@@ -26,7 +26,7 @@ var _is_changing_state:= false
 func _ready() -> void:
 	if default_state:
 		to_state(get_node(default_state) as AfsmState)
-
+		
 
 ## Switches this machine to a new state.
 ## 	[br] Any calls to this function after it was already called in a
